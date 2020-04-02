@@ -3,3 +3,171 @@
 html {
   font-family: Tahoma, Verdana, sans-serif sans-serif;
 }
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 735px;
+}
+
+.header-logo {
+  padding-top: 53px;
+  padding-bottom: 223px;
+}
+
+.header-heading {
+  font-family: Tahoma;
+  height: 50px;
+  color: #131313;
+  font-size: 51px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 1.02px;
+  margin-bottom: 24px;
+}
+
+.header-text {
+  width: 615px;
+  height: 42px;
+  text-align: center;
+  color: #131313;
+  font-family: Tahoma;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.32px;
+  margin-bottom: 36px;
+}
+
+.header-text span {
+  font-family: 'Tahoma - Bold';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.1px;
+}
+
+.button-order {
+  width: 246px;
+  height: 66px;
+  border-radius: 5px;
+  background-color: #f4c32f;
+  border-width: 0px;
+}
+
+.button-order span {
+  width: 161px;
+  height: 16px;
+  color: #000000;
+  font-family: Tahoma;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.36px;
+}
+
+.button-know {
+  width: 246px;
+  height: 66px;
+  border-radius: 5px;
+  border-width: 0px;
+  border: 1px solid #131313;
+  background-color: white;
+}
+
+.button-know span {
+  width: 161px;
+  height: 16px;
+  color: #000000;
+  font-family: Tahoma;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.36px;
+}
+
+.favours {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 866px;
+  background-color: #efefef;
+}
+
+.favours-heading {
+  width: 259px;
+  height: 36px;
+  margin-top: 91px;
+  margin-bottom: 82px;
+  color: #030303;
+  font-family: Tahoma;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.26px;
+}
+
+.favours-list {
+  max-width: 1920px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding-left: 352px;
+  pad
+}
+
+.favours-list-item {
+  height: 200px;
+  width: 354px;
+  text-align: center;
+  margin-bottom: 61px;
+  margin-left: 23px;
+  margin-right: 23px;
+}
+
+.favours-list-item h3 {
+  margin-top: 25px;
+  margin-bottom: 18px;
+  color: #030303;
+  font-family: Tahoma;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.4px;
+}
+
+.favours-list-item h3 {
+  width: 67;
+  height: 67;
+}
+
+.favours-list-item p {
+  text-transform: full-width;
+  /* width: 354px; */
+  height: 64px;
+  color: #030303;
+  font-family: Tahoma;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+}
+
+.link {
+  margin-top: 11px;
+width: 217px;
+height: 16px;
+color: #275fe0;
+font-family: Tahoma;
+font-size: 17px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0.34px;
+text-decoration: none;
+}
+
+.underline {margin-top: 10px;}
+  
