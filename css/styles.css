@@ -4,7 +4,7 @@ html {
   font-family: Tahoma, Verdana, sans-serif sans-serif;
 }
 
-.header {
+.main-header {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -12,7 +12,7 @@ html {
   height: 735px;
 }
 
-.header-logo {
+.main-logo {
   padding-top: 53px;
   padding-bottom: 223px;
 }
@@ -116,7 +116,6 @@ html {
   flex-wrap: wrap;
   align-content: flex-start;
   padding-left: 352px;
-  pad
 }
 
 .favours-list-item {
@@ -156,18 +155,65 @@ html {
   letter-spacing: 0.2px;
 }
 
-.link {
+.facebook-link {
   margin-top: 11px;
-width: 217px;
-height: 16px;
-color: #275fe0;
-font-family: Tahoma;
-font-size: 17px;
-font-weight: 700;
-line-height: 26px;
-letter-spacing: 0.34px;
-text-decoration: none;
+  width: 217px;
+  height: 16px;
+  color: #275fe0;
+  font-family: Tahoma;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.34px;
+  text-decoration: none;
 }
 
-.underline {margin-top: 10px;}
-  
+.underline {
+  margin-top: 10px;
+}
+
+.advantage {
+  max-height: 620px;
+}
+
+.advantage-heading {
+  margin-top: 90px;
+  margin-bottom: 44px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 610px;
+  height: 37px;
+  color: #030303;
+  font-family: Tahoma;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.52px;
+}
+
+.advantage-lists {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantage-list-img {
+  max-width: 324px;
+  height: 449px;
+}
+
+.advantage-list-left {
+  padding-top: 17px;
+  margin-left: 373px;
+  max-width: 330px;
+}
+
+.advantage-list-right {
+  padding-top: 17px;
+  margin-right: 373px;
+  max-width: 330px;
+}
+
+.main-footer {
+  max-height: 133px;
+  background-color: #efefef;
+}

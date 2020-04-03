@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header class="header">
-      <img class="header-logo" src="/img/Fdesign-logo.png" alt="logo" />
+    <header class="main-header">
+      <img class="main-logo" src="/img/Fdesign-logo.png" alt="logo" />
       <h1 class="header-heading">Дизайн чего угодно за 3 дня</h1>
       <p class="header-text" lang="en">
         Lorem ipsum dolor sit amet, <span>consectetur adipisicing</span> elit,
@@ -78,13 +78,13 @@
             </p>
           </li>
         </ul>
-        <a class="link" href="#">www.facebook.com/iam</a>
+        <a class="facebook-link" href="#">www.facebook.com/iam</a>
         <img class="underline" src="img/underline.png" alt="link-underline" />
       </section>
-      <section>
-        <h2>Преимущества работы с нами</h2>
-        <div class="container-advantage">
-          <ol>
+      <section class="advantage">
+        <h2 class="advantage-heading">Преимущества работы с нами</h2>
+        <div class="advantage-lists">
+          <ul class="advantage-list-left">
             <li>
               <span>01</span>
               <h3>Пунктуальность</h3>
@@ -109,11 +109,13 @@
                 eiusmod
               </p>
             </li>
-          </ol>
-        </div>
-        <img src="img/iphone-hand.jpg" alt="iphone-in-hand" />
-        <div class="container-advantage">
-          <ul>
+          </ul>
+          <img
+            class="advantage-list-img"
+            src="img/iphone-hand.png"
+            alt="iphone-in-hand"
+          />
+          <ul class="advantage-list-right">
             <li>
               <span>01</span>
               <h3>Верность делу</h3>
@@ -142,7 +144,7 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="main-footer">
       <div class="container">
         <ul>
           <li>Мы любим дизайн</li>
