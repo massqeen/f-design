@@ -95,6 +95,7 @@ html {
   align-items: center;
   height: 866px;
   background-color: #efefef;
+  margin-bottom: 90px;
 }
 
 .favours-heading {
@@ -145,7 +146,6 @@ html {
 
 .favours-list-item p {
   text-transform: full-width;
-  /* width: 354px; */
   height: 64px;
   color: #030303;
   font-family: Tahoma;
@@ -177,7 +177,6 @@ html {
 }
 
 .advantage-heading {
-  margin-top: 90px;
   margin-bottom: 44px;
   margin-left: auto;
   margin-right: auto;
@@ -191,26 +190,9 @@ html {
   letter-spacing: 0.52px;
 }
 
-.advantage-lists {
-  display: flex;
-  justify-content: space-between;
-}
-
 .advantage-list-img {
   max-width: 324px;
   height: 449px;
-}
-
-.advantage-list-left {
-  /* padding-top: 17px; */
-  /* margin-left: 373px; */
-  max-width: 330px;
-}
-
-.advantage-list-right {
-  /* padding-top: 17px; */
-  margin-right: 373px;
-  max-width: 330px;
 }
 
 .advantage-list-grid {
