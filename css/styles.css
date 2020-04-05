@@ -1,18 +1,30 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
-
 @font-face {
-  font-family: "Tahoma";
-  src: url('../fonts/tahoma.ttf'); 
+  font-family: 'Tahoma';
+  src: url('../fonts/tahoma.ttf');
   font-style: normal;
   font-weight: normal;
+}
 
-  font-family: "Tahoma - Bold";
+@font-face {
+  font-family: 'Tahoma - Bold';
   src: url('../fonts/tahomabd.ttf');
   font-weight: bold;
 }
 
-body {font-family: "Tahoma", Tahoma, Verdana, sans-serif;}
-h1, h2, h3 {font-family: "Tahoma - Bold", Tahoma, Verdana, sans-serif;}
+@font-face {
+  font-family: 'RobotoSlab-Light', serif;
+  src: url('../fonts/RobotoSlab-Light.ttf');
+  font-weight: 300;
+}
+
+body {
+  font-family: 'Tahoma', Tahoma, Verdana, sans-serif;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Tahoma - Bold', Tahoma, Verdana, sans-serif;
+}
 
 .main-header {
   display: flex;
@@ -47,7 +59,7 @@ h1, h2, h3 {font-family: "Tahoma - Bold", Tahoma, Verdana, sans-serif;}
 }
 
 .header-text span {
-  font-family: "Tahoma - Bold";
+  font-family: 'Tahoma - Bold';
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
@@ -63,7 +75,7 @@ h1, h2, h3 {font-family: "Tahoma - Bold", Tahoma, Verdana, sans-serif;}
 }
 
 .button-order span {
-  font-family: "Tahoma - Bold";
+  font-family: 'Tahoma - Bold';
   width: 161px;
   height: 16px;
   font-size: 18px;
@@ -80,7 +92,7 @@ h1, h2, h3 {font-family: "Tahoma - Bold", Tahoma, Verdana, sans-serif;}
 }
 
 .button-know span {
-  font-family: "Tahoma - Bold";
+  font-family: 'Tahoma - Bold';
   width: 161px;
   height: 16px;
   font-size: 18px;
@@ -140,7 +152,7 @@ h1, h2, h3 {font-family: "Tahoma - Bold", Tahoma, Verdana, sans-serif;}
 }
 
 .facebook-link {
-  font-family: "Tahoma - Bold";
+  font-family: 'Tahoma - Bold';
   margin-top: 11px;
   width: 217px;
   height: 16px;
@@ -235,6 +247,39 @@ h1, h2, h3 {font-family: "Tahoma - Bold", Tahoma, Verdana, sans-serif;}
 }
 
 .main-footer {
+  display: flex;
   height: 133px;
   background-color: #efefef;
+  justify-content: center;
+  align-items: center;
 }
+
+.footer-container {
+  display: grid;
+  width: 595px;
+  grid-template-columns: 112px 96px 142px 87px 158px;
+  grid-auto-rows: 32px;
+  align-items: center;
+}
+
+.footer-motto {
+  width: 112px;
+  opacity: 0.47;
+  font-size: 13px;
+  grid-column: 1;
+}
+
+.footer-logo {
+  height: 35px;
+  grid-column: 3;
+}
+
+.footer-copyright {
+  font-family: 'RobotoSlab-Light';
+  width: 158px;
+  opacity: 0.47;
+  font-size: 13px;
+  grid-column: 5;
+}
+
+
