@@ -1,2 +1,3 @@
-# goit-fe-course
-for my hometasks
+# F-Design
+
+html and css skills training
