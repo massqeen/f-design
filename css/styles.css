@@ -126,7 +126,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
-  padding-left: 353px;
+  margin-left: 160px;
 }
 
 .favours-list-item {
