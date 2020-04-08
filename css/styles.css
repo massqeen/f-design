@@ -111,6 +111,10 @@ h3 {
   margin-bottom: 90px;
 }
 
+.container {
+  max-width: 1203px;
+}
+
 .favours-heading {
   line-height: 70%;
   width: 259px;
@@ -122,11 +126,9 @@ h3 {
 }
 
 .favours-list {
-  max-width: 1920px;
   display: flex;
   flex-wrap: wrap;
-  align-content: flex-start;
-  margin-left: 160px;
+  align-content: center;
 }
 
 .favours-list-item {
